@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimya Hazinesi | Kimyasal Ürünlerde Güvenilir Tedarik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Kimya Hazinesi</div>
+
+    <nav>
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#urunler">Ürünler</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <a href="#iletisim" class="teklif">Teklif Al</a>
+</header>
+
+<section class="hero" id="anasayfa">
+
+    <div class="hero-yazi">
+        <p class="ust-yazi">KİMYASAL ÜRÜNLERDE GÜVENİLİR TEDARİK</p>
+
+        <h1>
+            Kaliteli Kimyasallar,
+            <span>Güvenilir Tedarik.</span>
+        </h1>
+
+        <p class="aciklama">
+            Endüstriyel ve ticari ihtiyaçlarınız için
+            güvenilir kimyasal ürün tedariği.
+        </p>
+
+        <div class="butonlar">
+            <a href="#urunler" class="buton ana-buton">
+                Ürünleri İncele
+            </a>
+
+            <a href="#iletisim" class="buton ikinci-buton">
+                Bize Ulaşın
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-kutu">
+        <div class="badge">KİMYA HAZİNESİ</div>
+        <strong>NaOH</strong>
+        <h3>Sodyum Hidroksit</h3>
+        <p>Endüstriyel Kimyasal Ürün</p>
+    </div>
+
+</section>
+
+<section class="urunler" id="urunler">
+
+    <p class="ust-yazi">ÜRÜNLERİMİZ</p>
+
+    <h2>Kimyasal Ürünler</h2>
+
+    <p class="urun-aciklama">
+        İhtiyacınız olan ürünleri inceleyin.
+    </p>
+
+    <div class="urun-grid">
+
+        <div class="urun-kart">
+            <div class="urun-gorsel">
+                Ürün Görseli
+            </div>
+
+            <div class="urun-bilgi">
+                <small>KİMYASAL ÜRÜN</small>
+                <h3>Kostik Soda</h3>
+            <div class="fiyat">2.099 TL</div>
+<div class="fiyat-detay">KDV dahil • Kargo dahil</div>
+
+                <p>
+                    Sodyum hidroksit ürünleri ve
+                    tedarik seçenekleri.
+                </p>
+
+                <button class="siparis-btn" onclick="siparisAc()"> Sipariş Ver →</button>
+            </div>
+        </div>
+
+        <div class="urun-kart">
+            <div class="urun-gorsel">
+                Ürün Görseli
+            </div>
+
+            <div class="urun-bilgi">
+                <small>KİMYASAL ÜRÜN</small>
+                <h3>Hafif Soda</h3>
+
+                <p>
+                    Endüstriyel kullanım için
+                    kimyasal ürün tedariği.
+                </p>
+
+                <a href="#iletisim">Bilgi Al →</a>
+            </div>
+        </div>
+
+        <div class="urun-kart">
+            <div class="urun-gorsel">
+                Ürün Görseli
+            </div>
+
+            <div class="urun-bilgi">
+                <small>ÜRÜN PORTFÖYÜ</small>
+                <h3>Diğer Ürünler</h3>
+
+                <p>
+                    Yeni ürünlerimizi burada
+                    keşfedebilirsiniz.
+                </p>
+
+                <a href="#iletisim">Bilgi Al →</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="hakkimizda" id="hakkimizda">
+
+    <div>
+        <p class="ust-yazi">HAKKIMIZDA</p>
+
+        <h2>
+            Kimyasal tedarikte
+            güvenilir adres.
+        </h2>
+    </div>
+
+    <div>
+        <p>
+            Kimya Hazinesi, kimyasal ürün ihtiyaçlarına
+            güvenilir ve profesyonel tedarik çözümleri
+            sunmak amacıyla oluşturulmuş bir markadır.
+        </p>
+    </div>
+
+</section>
+
+<section class="iletisim" id="iletisim">
+
+    <p class="ust-yazi">İLETİŞİM</p>
+
+    <h2>Bizimle iletişime geçin.</h2>
+
+    <p>
+        Ürün ve fiyat bilgisi için bizimle iletişime geçebilirsiniz.
+    </p>
+
+    <div class="iletisim-butonlari">
+
+        <a href="https://wa.me/905349579939" class="buton ana-buton">
+            WhatsApp
+        </a><a href="tel:+905349579939" class="buton ana-buton">
+    📞 0534 957 99 39</a>
+
+        <a href="mailto:info@kimyahazinesi.com"
+           class="buton ikinci-buton">
+            E-posta
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <strong>Kimya Hazinesi</strong>
+
+    <p>
+        Kimyasal ürünlerde güvenilir tedarik.
+    </p>
+
+    <p>
+        © 2026 Kimya Hazinesi
+    </p>
+
+</footer>
+<div class="siparis-overlay" id="siparisOverlay">
+
+    <div class="siparis-form">
+
+        <button class="form-kapat" onclick="siparisKapat()">×</button>
+
+        <h2>Kostik Soda Siparişi</h2>
+
+        <p>2.099 TL • KDV dahil • Kargo dahil</p>
+
+        <label>Ad Soyad</label>
+        <input type="text" id="adSoyad" placeholder="Adınız ve soyadınız">
+
+        <label>Telefon</label>
+        <input type="tel" id="telefon" placeholder="05XX XXX XX XX">
+
+        <label>İl</label>
+        <input type="text" id="il" placeholder="İl">
+
+        <label>İlçe</label>
+        <input type="text" id="ilce" placeholder="İlçe">
+
+        <label>Adres</label>
+        <textarea id="adres" placeholder="Açık adresiniz"></textarea>
+
+        <label>Adet</label>
+        <input type="number" id="adet" value="1" min="1">
+
+        <button class="siparis-gonder" onclick="siparisGonder()">
+            WhatsApp'tan Sipariş Ver
+        </button>
+
+    </div>
+
+</div>
+<script>
+function siparisAc() {
+    document.getElementById("siparisOverlay").classList.add("aktif");
+}
+
+function siparisKapat() {
+    document.getElementById("siparisOverlay").classList.remove("aktif");
+}
+</script></body>
+</html>
