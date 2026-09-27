@@ -824,3 +824,77 @@ function siparisKapat() {
     font-weight: 700;
     letter-spacing: 0.3px;
 }
+.duyuru-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.duyuru-kutu {
+    position: relative;
+    width: 420px;
+    min-height: 360px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 45px 35px;
+}
+
+.duyuru-icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.duyuru-kutu h2 {
+    margin: 0 0 22px;
+    color: #d40000;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.duyuru-kutu p {
+    margin: 0;
+    color: #222;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+.duyuru-kutu p strong {
+    color: #d40000;
+    font-size: 25px;
+}
+
+.duyuru-kutu span {
+    margin-top: 25px;
+    color: #666;
+    font-size: 15px;
+}
+
+.duyuru-kapat {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: #f1f1f1;
+    color: #333;
+    font-size: 28px;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.duyuru-kapat:hover {
+    background: #d40000;
+    color: #fff;
+}
