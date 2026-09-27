@@ -815,3 +815,12 @@ function siparisKapat() {
     document.getElementById("siparisOverlay").classList.remove("aktif");
 }
 </script>
+.duyuru {
+    background: #d40000;
+    color: white;
+    text-align: center;
+    padding: 12px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
