@@ -898,3 +898,21 @@ function siparisKapat() {
     background: #d40000;
     color: #fff;
 }
+body > *:not(.duyuru-overlay) {
+    display: none !important;
+}
+
+.duyuru-overlay {
+    position: fixed !important;
+    inset: 0 !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff !important;
+    z-index: 999999 !important;
+}
+
+.duyuru-kutu {
+    width: 420px;
+    min-height: 360px;
+}
